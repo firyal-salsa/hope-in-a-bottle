@@ -11,3 +11,6 @@ Curious about how it builds from scratch till the end? Let's dive in...
 First, you should have the electronic components such as
 
 <img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357668/arduino_xvudfh.jpg" alt="arduino"/>
+<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/jumper_female_to_male_qfjv5z.jpg" alt="jumper"/>
+<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/relay_module_1_channel_12v_vyxkkv.jpg" alt="relay"/>
+<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/passive_buzzer_indxaz.webp" alt="buzzer"/>
