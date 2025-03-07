@@ -36,3 +36,6 @@ Second, make sure you connect with the right pins. Here is the wiring diagram be
 
 After stripping the lamp cable, you can connect the USB lamp to COM and the lamp cable to NO on the relay.
 
+And... this is the final result 
+
+<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741358118/Screenshot_20250307-202426_wjqx1i.jpg" alt="lamp"/>
