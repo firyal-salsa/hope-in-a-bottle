@@ -24,3 +24,15 @@ First, you should have the electronic components such as
     <td><b>Passive Buzzer</b></td>
   </tr>
 </table>
+
+You should have a screwdriver (for tightening or loosening cables on screw terminals), a razor blade (for stripping the lamp cable), and a soldering iron (if the electronic components don’t have pre-attached legs).
+
+Second, make sure you connect with the right pins. Here is the wiring diagram below
+
+| Components                 | Connect to Arduino      |
+|--------------------------|------------------------|
+| **Passive Buzzer**       | GND → GND <br> I/O → 8 <br> VCC → 5V |
+| **Relay Module 1 Channel 12V** | VCC → VIN <br> GND → GND <br> IN → 3 |
+
+After stripping the lamp cable, you can connect the USB lamp to COM and the lamp cable to NO on the relay.
+
