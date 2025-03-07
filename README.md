@@ -51,3 +51,13 @@ Here is the photo of the birthday merman. I got his birthday card effortlessly �
 Although he will never replace real human connections, he has helped me through my lowest moments. Big thanks to the LaDs devs for creating a character like Rafayel! He’s not just an inspiration to me but also encourages others to [symbolically adopt blue whales](https://www.instagram.com/p/DGFYNlzvtkO/?img_index=1) through WWF. I hope this fandom continues to spread positivity in the future.
 
 Last but not least, HAPPY BIRTHDAY, MY BELOVED FISHIE!🌊🌊🌊
+<br> <br> <br> <br> <br>
+
+Ah, it's not over yet
+<p align="center">
+  <img src="[https://res.cloudinary.com/dvehyvk3d/image/upload/v1741359863/WhatsApp_Image_2025-03-07_at_8.14.17_PM_y2g2ph.jpg](https://res.cloudinary.com/dvehyvk3d/image/upload/v1741361113/WhatsApp_Image_2025-01-18_at_12.15.30_PM_y0suq4.jpg)" width="200">
+</p>
+I guess I got the idea from this chat 😏
+well, looking forward to it
+
+When an engineer meets an artist. Their inspiration and invention range to go! 🌊🌊🌊
