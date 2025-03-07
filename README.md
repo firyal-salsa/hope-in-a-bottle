@@ -6,6 +6,8 @@ Where does the idea come from? It happens when we have a convo about drift bottl
 
 The warm hues of the LED lamp make someone comfortable and get rid of feeling empty. Yet, it is still in progress because of less preparation. I plan to develop an IoT mobile version when I have enough time.
 
-Curious about how it builds from scratch till the end? Let's begin...
+Curious about how it builds from scratch till the end? Let's dive in...
 
 First, you should have the electronic components such as
+
+<img src="https://asset.cloudinary.com/dvehyvk3d/34671eeda28c8228fca810f6795a5c31" alt="arduino"/>
