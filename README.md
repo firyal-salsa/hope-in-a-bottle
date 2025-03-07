@@ -10,4 +10,4 @@ Curious about how it builds from scratch till the end? Let's dive in...
 
 First, you should have the electronic components such as
 
-<img src="https://asset.cloudinary.com/dvehyvk3d/34671eeda28c8228fca810f6795a5c31" alt="arduino"/>
+<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357668/arduino_xvudfh.jpg" alt="arduino"/>
