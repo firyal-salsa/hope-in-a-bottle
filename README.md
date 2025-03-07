@@ -4,7 +4,7 @@ Where does the idea come from? It happens when we have a convo about drift bottl
 
 <h1>Hope in a bottle</h1>
 
-The warm hues make someone comfortable and get rid of feeling empty. Yet, it is still in progress because of less preparation. I plan to develop an IoT mobile version when I have enough time.
+The warm hues of the LED lamp make someone comfortable and get rid of feeling empty. Yet, it is still in progress because of less preparation. I plan to develop an IoT mobile version when I have enough time.
 
 Curious about how it builds from scratch till the end? Let's begin...
 
