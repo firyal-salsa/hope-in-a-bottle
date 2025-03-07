@@ -42,7 +42,7 @@ After stripping the lamp cable, you can connect the USB lamp to COM and the lamp
 
 I finished this project in one day, still challenging tho 
 
-Here is the photo of the birthday merman. I got his birthday card effortless 😎
+Here is the photo of the birthday merman. I got his birthday card effortlessly 😎
 
 <p align="center">
   <img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741359863/WhatsApp_Image_2025-03-07_at_8.14.17_PM_y2g2ph.jpg" width="300">
