@@ -55,7 +55,7 @@ Last but not least, HAPPY BIRTHDAY, MY BELOVED FISHIE!🌊🌊🌊
 
 Ah, it's not over yet
 <p align="center">
-  <img src="[https://res.cloudinary.com/dvehyvk3d/image/upload/v1741359863/WhatsApp_Image_2025-03-07_at_8.14.17_PM_y2g2ph.jpg](https://res.cloudinary.com/dvehyvk3d/image/upload/v1741361113/WhatsApp_Image_2025-01-18_at_12.15.30_PM_y0suq4.jpg)" width="200">
+  <img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741361113/WhatsApp_Image_2025-01-18_at_12.15.30_PM_y0suq4.jpg" width="200">
 </p>
 I guess I got the idea from this chat 😏
 well, looking forward to it
