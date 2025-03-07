@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafayel's Birthday from Firyal</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Anton&family=Poppins&display=swap');
+
+    body {
+        background: radial-gradient(circle at top, #e59fc4, #664a7b);
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #FFC0CB;
+        position: relative;
+    }
+
+    .wilujeng {
+        font-family: 'Great Vibes', cursive;
+        font-size: 5rem;
+        opacity: 0.2;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        z-index: 1;
+    }
+
+    .happy-birthday {
+        font-family: 'Lobster', cursive;
+        font-size: 4rem;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        white-space: nowrap;
+    }
+
+    .rafayel {
+        display: inline;
+    }
+
+    .from-firyal {
+        font-family: 'Great Vibes', cursive;
+        font-size: 1.5rem;
+        display: inline;
+        margin-left: 10px; 
+        vertical-align: middle; 
+        color: #FFC0CB; 
+        opacity: 0.2; 
+    }
+
+    .star {
+        position: fixed;
+        pointer-events: none;
+    }
+
+    .star:before, .star:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '\2726';
+        font-size: 9px;
+    }
+
+    .star:before {
+        color: transparent;
+        text-shadow: 0 0 3px rgb(250, 250, 174);
+    }
+
+    .star:after {
+        background: whitesmoke;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .buttons {
+        position: absolute;
+        bottom: 10%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .bubble-button {
+        background: rgba(173, 216, 230, 0.8);
+        border: none;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        font-size: 1.2rem;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-shadow: 1px 1px 2px black;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .bubble-button:hover {
+        transform: scale(1.1);
+    }
+
+    .bubble {
+        position: absolute;
+        bottom: -50px;
+        width: 30px;
+        height: 30px;
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+        border-radius: 50%;
+        opacity: 0.7;
+        animation: rise 10s infinite ease-in;
+    }
+
+    @keyframes rise {
+        0% {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-100vh) scale(1.5);
+            opacity: 0;
+        }
+    }
+    </style>
+    <script>
+        let serialPort;
+        let isConnected = false;
+
+
+        window.addEventListener('mousemove', function(e) {
+            const arr = [1, 0.9, 0.8, 0.5, 0.2];
+            
+            arr.forEach(function(i) {
+                const x = (1 - i) * 75;
+                const star = document.createElement('div');
+                
+                star.className = 'star';
+                star.style.top = e.pageY + Math.round(Math.random() * x - x / 2) + 'px';
+                star.style.left = e.pageX + Math.round(Math.random() * x - x / 2) + 'px';
+                
+                document.body.appendChild(star);
+                
+                window.setTimeout(function() {
+                    document.body.removeChild(star);
+                }, Math.round(Math.random() * i * 600));
+            });
+        }, false);
+
+        async function connectArduino() {
+            try {
+                serialPort = await navigator.serial.requestPort();
+                await serialPort.open({ baudRate: 9600 });
+                isConnected = true;
+                alert("Terhubung ke Arduino!");
+            } catch (err) {
+                console.error("Gagal terhubung:", err);
+                alert("Gagal terhubung ke perangkat serial!");
+            }
+        }
+
+        async function sendCommand(command) {
+            if (!serialPort || !isConnected) {
+                alert("Silakan hubungkan ke perangkat terlebih dahulu!");
+                return;
+            }
+
+            try {
+                const writer = serialPort.writable.getWriter();
+                const encoder = new TextEncoder();
+                await writer.write(encoder.encode(command + "\n"));
+                writer.releaseLock();
+            } catch (err) {
+                console.error("Error sending command:", err);
+                alert("Gagal mengirim perintah!");
+            }
+        }
+
+        window.onload = function() {
+            document.getElementById("onOffBtn").addEventListener("click", () => sendCommand("ON_OFF"));
+            document.getElementById("playBtn").addEventListener("click", () => sendCommand("PLAY"));
+            document.getElementById("connectBtn").addEventListener("click", connectArduino);
+        };
+    </script>
+</head>
+<body>
+    <div class="wilujeng">Wilujeng Tepang Taun</div>
+    <div class="happy-birthday">
+        Happy Birthday <br>
+        <span class="rafayel">Rafayel!</span> 
+        <span class="from-firyal">From Firyal</span>
+    </div>    
+    <div class="buttons">
+        <button id="onOffBtn" class="bubble-button">On/Off</button>
+        <button id="playBtn" class="bubble-button">Play</button>
+        <button id="connectBtn" class="bubble-button">Connect</button>
+    </div>    
+</body>
+</html>
