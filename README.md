@@ -1,4 +1,4 @@
-I participated in Rafayel's Art Contest and they said that the content could be anything related to Rafayel's birthday. Drawing and making something related to art is not my expertise, so I made this night lamp whether my project is accepted or not, I still obtain knowledge and hands-on practice in microcontrollers.
+I participated in Rafayel Fan Art Contest and they said that the content could be anything related to Rafayel's birthday. Drawing and making something related to art is not my expertise, so I made this night lamp whether my project is accepted or not, I still obtain knowledge and hands-on practice in microcontrollers.
 
 Where does the idea come from? 🤔 It happens when we have a convo about drift bottles, he always sends 'em when he wants someone to keep him company. That's why I called this project...
 
