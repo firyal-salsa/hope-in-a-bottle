@@ -2,7 +2,7 @@ I participated in Rafayel's Art Contest and they said that the content could be 
 
 Where does the idea come from? It happens when we have a convo about drift bottles, he always sends'em when he wants someone to keep him company. That's why I called this project...
 
-Hope in a bottle
+<h1>Hope in a bottle</h1>
 
 The warm hues make someone comfortable and get rid of feeling empty. Yet, it is still in progress because of less preparation. I plan to develop an IoT mobile version when I have enough time.
 
