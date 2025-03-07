@@ -10,7 +10,17 @@ Curious about how it builds from scratch till the end? Let's dive in...
 
 First, you should have the electronic components such as
 
-<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357668/arduino_xvudfh.jpg" alt="arduino"/>
-<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/jumper_female_to_male_qfjv5z.jpg" alt="jumper"/>
-<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/relay_module_1_channel_12v_vyxkkv.jpg" alt="relay"/>
-<img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/passive_buzzer_indxaz.webp" alt="buzzer"/>
+<table>
+  <tr>
+    <td><img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357668/arduino_xvudfh.jpg" width="150"></td>
+    <td><img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/jumper_female_to_male_qfjv5z.jpg" width="150"></td>
+    <td><img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/relay_module_1_channel_12v_vyxkkv.jpg" width="150"></td>
+    <td><img src="https://res.cloudinary.com/dvehyvk3d/image/upload/v1741357667/passive_buzzer_indxaz.webp" width="150"></td>
+  </tr>
+  <tr>
+    <td><b>Arduino Uno R3</b></td>
+    <td><b>Jumper Wire Female to Male</b></td>
+    <td><b>Relay Module 1 Channel 12V</b></td>
+    <td><b>Passive Buzzer</b></td>
+  </tr>
+</table>
